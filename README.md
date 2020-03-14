@@ -10,7 +10,7 @@ The solution discussed in this article is based on AWS cloud service.  Terraform
 
 The architectural design of the platform is shown as below: 
 
-![Architectural Design](https://tva1.sinaimg.cn/large/00831rSTly1gcu5xud6fhj30p20f1ta9.jpg)
+![Architectural Design](https://tva1.sinaimg.cn/large/00831rSTly1gcu72afyq7j30nn0f1myk.jpg)
 
 ### **Major decisions on the design**
 
