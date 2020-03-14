@@ -20,18 +20,18 @@ module "network" {
 }
 
 module "web" {
-  source           = "./modules/web"
-  public_subnet_a  = "${module.network.public_subnet_a}"
-  public_subnet_b  = "${module.network.public_subnet_b}"
-  private_subnet_a = "${module.network.private_subnet_a}"
-  private_subnet_b = "${module.network.private_subnet_b}"
-  public_sg        = "${module.network.public_sg}"
-  private_sg       = "${module.network.private_sg}"
+  source            = "./modules/web"
+  public_subnet_a   = "${module.network.public_subnet_a}"
+  public_subnet_b   = "${module.network.public_subnet_b}"
+  private_subnet_a  = "${module.network.private_subnet_a}"
+  private_subnet_b  = "${module.network.private_subnet_b}"
+  public_sg         = "${module.network.public_sg}"
+  private_sg        = "${module.network.private_sg}"
   instance_type_bastion_host = "${var.instance_type_bastion_host}"
   instance_type_app = "${var.instance_type_app}"
   num_bastion_host  = "${var.num_bastion_host}"
   num_app           = "${var.num_app}"
-  ssh_key_name       = "${var.ssh_key_name}"
+  ssh_key_name      = "${var.ssh_key_name}"
   private_key_path  = "${var.private_key_path}"
 }
 
