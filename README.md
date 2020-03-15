@@ -57,7 +57,7 @@ In addition, the fields of ec2 instance type and the number of ec2 instance are 
 First of all, fork the code from Github repository. 
 
 ```
-git clone https://github.com/a30001784/realestate-test.git
+git clone https://github.com/markwu2020/realestate-test.git
 ```
 
 Copy your own ***.pem file into the home directory of the code base, modify the `dev.tfvars`file and change the values of the `ssh_key_name`and `private_key_path`to your own pem file. 
